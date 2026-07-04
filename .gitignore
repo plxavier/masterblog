@@ -65,3 +65,9 @@ Desktop.ini
 posts.json
 *.bak
 .idea/
+
+
+#things to keep
+!posts_template.json
+!*.example
+!*.sample
