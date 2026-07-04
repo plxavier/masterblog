@@ -229,7 +229,8 @@ def not_found(error):
     """Handle 404 Not Found errors."""
     try:
         return render_template('error.html', message="Page not found"), 404
-    except Exception:
+    except Exception as error:
+        print(f"Page could not be found: {error}")
         return "Page not found", 404
 
 
@@ -255,6 +256,7 @@ def add_header(response):
 
 if __name__ == '__main__':
     try:
-        app.run(host="0.0.0.0", port=8001, debug=True)
+        app.run(host="0.0.0.0", port=5000, debug=True)
     except Exception as error:
         print(f"Error starting server: {error}")
+
