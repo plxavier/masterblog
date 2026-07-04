@@ -1,6 +1,6 @@
-# 📝 Masterblog - A Flask Blog Application
+# 📝 Masterblog - A Blog Application with Flask
 
-A simple, lightweight blog application built with Flask where users can create, read, update, and delete blog posts.
+A simple blog application built with Flask where users can create, read, update, and delete blog posts.
 
 ## ✨ Features
 
